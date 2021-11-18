@@ -1,0 +1,9 @@
+{
+  "name": "composition-api-plugin-sample",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "app",
+    "lib"
+  ]
+}

@@ -1,18 +1,5 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "lib": [
-      "ESNext",
-      "ESNext.AsyncIterable",
-      "DOM"
-    ],
-    "composite": true,
-    "esModuleInterop": true,
-    "allowJs": true,
-    "sourceMap": true,
-    "strict": true,
     "noEmit": true,
     "experimentalDecorators": true,
     "baseUrl": ".",
@@ -34,5 +21,6 @@
     "node_modules",
     ".nuxt",
     "dist"
-  ]
+  ],
+  "extends": "../../tsconfig.json",
 }

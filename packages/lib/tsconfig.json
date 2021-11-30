@@ -1,20 +1,12 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "rootDir": "src",
     "useDefineForClassFields": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "strict": true,
-    "jsx": "preserve",
-    "sourceMap": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "lib": ["esnext", "dom"],
     "emitDeclarationOnly": true,
     "declaration": true,
     "declarationMap": true,
     "declarationDir": "./dist/type",
-    "composite": true
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "extends": "../../tsconfig.json",
 }

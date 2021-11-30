@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "workspaces": [
-    "app",
-    "lib"
+    "packages/*"
   ],
   "dependencies": {
     "@nuxtjs/composition-api": "^0.30.0",

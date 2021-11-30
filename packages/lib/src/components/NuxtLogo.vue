@@ -15,16 +15,10 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent, ref } from "@vue/composition-api";
-export default defineComponent({
-  setup() {
-    const message = ref("hey!");
-    return {
-      message,
-    };
-  },
-});
+<script setup lang="ts">
+import { ref } from "@vue/composition-api";
+
+const message = ref("hey!");
 </script>
 
 <style>

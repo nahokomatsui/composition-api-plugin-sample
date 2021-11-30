@@ -12,4 +12,8 @@
     "allowJs": true,
     "composite": true
   },
+  "vueCompilerOptions": {
+    "experimentalCompatMode": 2
+  },
+  "types": ["unplugin-vue2-script-setup/types"]
 }

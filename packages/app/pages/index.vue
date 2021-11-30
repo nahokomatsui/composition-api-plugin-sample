@@ -1,11 +1,12 @@
 <template>
-  <NuxtLogo />
+  <div>
+    <NuxtLogo />
+    {{ message }}
+  </div>
 </template>
 
-<script lang="ts">
-import Vue from "vue";
+<script setup lang="ts">
+import { ref } from "@nuxtjs/composition-api";
 
-export default Vue.extend({
-  name: "IndexPage",
-});
+const message = ref("hi!");
 </script>

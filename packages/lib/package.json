@@ -1,16 +1,15 @@
 {
   "name": "lib",
-  "version": "1.0.0",
-  "private": true,
-  "main": "dist/runtime/lib.common.js",
-  "types": "dist/index.d.ts",
+  "version": "0.0.0",
+  "files": ["dist"],
+  "module": "./dist/runtime/lib.es.js",
+  "types": "./dist/type/index.d.ts",
   "scripts": {
-    "build": "npm run build:runtime && npm run build:type",
-    "build:runtime": "vue-cli-service build --target lib ./src/index.ts --dest dist/runtime",
-    "build:type": "tsc --emitDeclarationOnly --declaration --outDir dist --rootDir src"
+    "build": "tsc && vite build"
   },
   "devDependencies": {
-    "@vue/cli-plugin-typescript": "^4.5.15",
-    "@vue/cli-service": "^4.5.15"
+    "vite": "^2.6.4",
+    "vite-plugin-vue2": "^1.9.0",
+    "vue-tsc": "^0.3.0"
   }
 }

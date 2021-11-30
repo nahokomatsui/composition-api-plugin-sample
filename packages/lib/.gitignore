@@ -1,25 +1,5 @@
-.DS_Store
 node_modules
-dist/
-coverage
-docs/.vuepress/dist
-yarn-error.log
-
-# local env files
-.env.local
-.env.*.local
-
-# related test files
-/tests/e2e/reports
-/tests/e2e/videos
-/tests/e2e/screenshots
-
-# editor directories and files
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw*
-  
-*.tsbuildinfo
+.DS_Store
+dist
+dist-ssr
+*.local

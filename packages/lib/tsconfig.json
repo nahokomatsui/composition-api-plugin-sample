@@ -5,8 +5,8 @@
     "emitDeclarationOnly": true,
     "declaration": true,
     "declarationMap": true,
-    "declarationDir": "./dist/type",
+    "declarationDir": "./dist/type"
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
-  "extends": "../../tsconfig.json",
+  "extends": "../../tsconfig.json"
 }

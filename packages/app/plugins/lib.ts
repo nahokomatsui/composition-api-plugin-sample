@@ -1,4 +1,4 @@
-import Lib from "lib"
-import Vue from "vue"
+import Lib from "lib";
+import Vue from "vue";
 
-Vue.use(Lib)
+Vue.use(Lib);

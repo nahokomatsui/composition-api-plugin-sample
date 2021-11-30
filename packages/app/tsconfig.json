@@ -4,23 +4,12 @@
     "experimentalDecorators": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": [
-        "./*"
-      ],
-      "@/*": [
-        "./*"
-      ]
+      "~/*": ["./*"],
+      "@/*": ["./*"]
     },
-    "types": [
-      "@nuxt/types",
-      "@types/node"
-    ]
+    "types": ["@nuxt/types", "@types/node"]
   },
   "references": [{ "path": "../lib" }],
-  "exclude": [
-    "node_modules",
-    ".nuxt",
-    "dist"
-  ],
-  "extends": "../../tsconfig.json",
+  "exclude": ["node_modules", ".nuxt", "dist"],
+  "extends": "../../tsconfig.json"
 }

@@ -1,5 +1,3 @@
 module.exports = {
-  extends: [
-    '../../.eslintrc.nuxt.js'
-  ]
-}
+  extends: ["../../.eslintrc.nuxt.js"],
+};

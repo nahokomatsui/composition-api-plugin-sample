@@ -21,7 +21,7 @@ import { ref } from "@vue/composition-api";
 const message = ref("hey!");
 </script>
 
-<style>
+<style scoped>
 .nuxt-logo {
   height: 180px;
 }

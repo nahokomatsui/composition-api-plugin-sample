@@ -18,7 +18,7 @@
 <script setup lang="ts">
 import { ref } from "@vue/composition-api";
 
-const message = ref("hey!");
+const message = ref("this is a logo built on lib");
 </script>
 
 <style scoped>

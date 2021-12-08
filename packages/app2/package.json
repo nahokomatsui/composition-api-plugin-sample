@@ -19,5 +19,8 @@
     "@nuxtjs/eslint-config-typescript": "^8.0.0",
     "@vue/runtime-dom": "^3.2.23",
     "eslint-plugin-nuxt": "^3.1.0"
+  },
+  "acceptDependencies": {
+    "typescript": "^4"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "composition-api-plugin-sample",
+  "name": "nuxt-vue-2-capi-monorepo-sample",
   "private": true,
   "workspaces": [
     "packages/*"

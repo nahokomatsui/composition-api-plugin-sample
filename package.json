@@ -5,7 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "npm run lint --workspaces"
+    "lint": "npm run lint --workspaces",
+    "format": "prettier --check --ignore-path .gitignore ."
   },
   "devDependencies": {
     "eslint": "^8.3.0",
